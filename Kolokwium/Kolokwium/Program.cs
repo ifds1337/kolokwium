@@ -10,6 +10,7 @@ namespace Kolokwium
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
