@@ -12,5 +12,11 @@ namespace Kolokwium
         {
 
         }
+
+        public static int LiczTriplet(int[] tab, int P, int Q, int R)
+        {
+            return 0;
+        }
+
     }
 }
