@@ -47,22 +47,26 @@ namespace Kolokwium
                 }
             }
 
-            for (int i = R; i >= 0; i--)
+            najwieksza = 0;
+
+            for (int i = 5; i >= 0; i--)
             {
                 aktualna = A[i];
 
-                if (aktualna > najwieksza)
+                if (aktualna > najwieksza && i < R)
                 {
                     Q = i;
                     najwieksza = aktualna;
                 }
             }
 
-            for (int i = P; i >= 0; i--)
+            najwieksza = 0;
+
+            for (int i = 5; i >= 0; i--)
             {
                 aktualna = A[i];
 
-                if (aktualna > najwieksza)
+                if (aktualna > najwieksza && i < R && i < Q)
                 {
                     P = i;
                     najwieksza = aktualna;
