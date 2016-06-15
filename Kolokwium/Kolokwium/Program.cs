@@ -19,5 +19,11 @@ namespace Kolokwium
             return (A[P] * A[Q] * A[R]);
         }
 
+        public static int ZnajdzTriplet()
+        {
+            return 0;
+        }
+
+
     }
 }

@@ -29,5 +29,11 @@ namespace Kolokwium.Tests
             actual = Program.LiczTriplet(A, P, Q, R);
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod()]
+        public void ZnajdzTriplet()
+        {
+            Assert.Fail();
+        }
     }
 }
