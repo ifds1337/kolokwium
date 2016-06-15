@@ -11,11 +11,6 @@ namespace Kolokwium.Tests
     [TestClass()]
     public class ProgramTests
     {
-        [TestMethod()]
-        public void MainTest()
-        {
-            Assert.Fail();
-        }
 
         [TestMethod()]
         public void LiczTripletTest()
@@ -34,12 +29,11 @@ namespace Kolokwium.Tests
         public void ZnajdzTriplet()
         {
             int[] A = new int[] { -3, 1, 2, -2, 5, 6 };
-            int R = 5;
 
-            int expected = 5;
+            int expected = 60;
             int actual;
 
-            actual = Program.ZnajdzTriplet(A, R);
+            actual = Program.ZnajdzTriplet(A);
             Assert.AreEqual(expected, actual);
         }
     }
