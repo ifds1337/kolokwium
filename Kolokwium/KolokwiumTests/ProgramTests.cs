@@ -20,7 +20,14 @@ namespace Kolokwium.Tests
         [TestMethod()]
         public void LiczTripletTest()
         {
-            Assert.Fail();
+            int[] A = new int[] { -3, 1, 2, -2, 5, 6 };
+            int P = 1, Q = 2, R = 4;
+
+            int expected = 10;
+            int actual;
+
+            actual = Program.LiczTriplet(A, P, Q, R);
+            Assert.AreEqual(expected, actual);
         }
     }
 }
