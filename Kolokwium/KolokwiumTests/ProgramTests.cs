@@ -33,7 +33,14 @@ namespace Kolokwium.Tests
         [TestMethod()]
         public void ZnajdzTriplet()
         {
-            Assert.Fail();
+            int[] A = new int[] { -3, 1, 2, -2, 5, 6 };
+            int R = 5;
+
+            int expected = 5;
+            int actual;
+
+            actual = Program.ZnajdzTriplet(A, R);
+            Assert.AreEqual(expected, actual);
         }
     }
 }

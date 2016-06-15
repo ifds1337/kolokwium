@@ -19,11 +19,25 @@ namespace Kolokwium
             return (A[P] * A[Q] * A[R]);
         }
 
-        public static int ZnajdzTriplet()
+        public static int ZnajdzTriplet(int[] A, int R)
         {
-            return 0;
-        }
+            int aktualna;
+            int najwieksza = 0;
+            int temp1, temp2, temp3;
 
+            for (int i = 5; i>=0; i--)
+            {
+                aktualna = A[i];
+
+                if(aktualna > najwieksza)
+                {
+                    R = i;
+                    najwieksza = aktualna;   
+                }
+            }
+
+            return R;
+        }
 
     }
 }
