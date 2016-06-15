@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Kolokwium
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         { 
             int[] A = new int[] { -3, 1, 2, -2, 5, 6};
 
@@ -18,5 +18,6 @@ namespace Kolokwium
         {
             return (A[P] * A[Q] * A[R]);
         }
+
     }
 }
